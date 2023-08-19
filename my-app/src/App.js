@@ -1,10 +1,12 @@
 import './App.css';
-import CardComponent from './commponet/Card';
+import Card from './commponet/Card';
 
 function App() {
     return (
         <div className="App">
-            <CardComponent/>
+            <Card title="Title" />
+            <Card text="Text" />
+            <Card title="Title card 3" text="text card 3" />
         </div>
     );
 }
